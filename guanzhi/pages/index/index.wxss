@@ -1,0 +1,52 @@
+/**index.wxss**/
+.text-field{
+  padding: 0em 1.5em;
+  
+}
+
+#text-btn::after{
+  border: none;
+}
+
+#text-btn{
+  line-height: 1.6;
+  text-align:justify;
+}
+
+.float-btn{
+  position: fixed;
+  bottom: 90rpx;
+  right: 50rpx;
+  align-items: center;
+}
+
+#image-refresh-btn::after{
+  border: none;
+} 
+
+#image-refresh{
+  width: 50rpx;
+  height:50rpx;
+}
+
+.page-head{
+  padding: 1em 1.5em 2em;
+  text-align: center;
+}
+.page-head-title{
+  display: inline-block;
+  padding: 0 20rpx 5rpx;
+  font-size: 1.25em;
+  color: #BEBEBE;
+}
+.page-head-line{
+  margin: 0 auto;
+  width: 150rpx;
+  height: 2rpx;
+  background-color: #D8D8D8;
+}
+.page-head-desc{
+  padding-top: 20rpx;
+  color: #9B9B9B;
+  font-size: 32rpx;
+}

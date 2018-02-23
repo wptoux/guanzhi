@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">{{title}}</view>
+    <view class="page-head-line"></view>
+    <view wx:if="{{desc}}" class="page-head-desc">{{desc}}</view>
+  </view>
+
+  <view class="text-field">
+    <button id='text-btn'>
+      {{body}}
+    </button>
+  </view>
+
+  <view class='float-btn'>
+    <button id='image-refresh-btn'>
+      <image id='image-refresh' src='../../images/refresh.png'></image>
+    </button>
+  </view>
+</view>
