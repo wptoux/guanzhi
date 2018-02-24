@@ -14,6 +14,12 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+function randInt(lowerValue, upperValue) {
+  return Math.floor(Math.random() * (upperValue - lowerValue) + lowerValue);
+}
+
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  randInt: randInt
 }

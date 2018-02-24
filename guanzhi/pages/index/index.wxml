@@ -6,15 +6,11 @@
     <view wx:if="{{desc}}" class="page-head-desc">{{desc}}</view>
   </view>
 
-  <view class="text-field">
-    <button id='text-btn'>
-      {{body}}
-    </button>
+  <view class="text-field-view">
+      <text id='text-field' space='true' bindtap='more'>{{body}}</text>
   </view>
 
-  <view class='float-btn'>
-    <button id='image-refresh-btn'>
-      <image id='image-refresh' src='../../images/refresh.png'></image>
-    </button>
+  <view class='float-btn-view'>
+    <image id='image-refresh' src='../../images/refresh.png' bindtap='refresh'></image>
   </view>
 </view>
