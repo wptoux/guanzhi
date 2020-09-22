@@ -8,10 +8,11 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.91",
+	"libVersion": "2.3.0",
 	"appid": "wx3ec4ea33855efa2d",
 	"projectname": "guanzhi",
 	"isGameTourist": false,
+	"cloudfunctionRoot": "cloud-functions/",
 	"condition": {
 		"search": {
 			"current": -1,
